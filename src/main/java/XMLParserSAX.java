@@ -15,7 +15,7 @@ public class XMLParserSAX {
         SAXParser saxParser = saxParserFactory.newSAXParser();
         {
             LeiParser leiParser = new LeiParser();
-            saxParser.parse(new File("C:\\Users\\u0139221\\Desktop\\LEI.xml"), leiParser);
+            saxParser.parse(new File("C:\\Users\\XXXXX\\Desktop\\LEI.xml"), leiParser);
             //Get Entity list
             List<LeiRecord> leiRecordList =leiParser.getLeiRecordList();
             for (LeiRecord leiRecord : leiRecordList){
