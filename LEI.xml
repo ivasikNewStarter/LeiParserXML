@@ -1,0 +1,5 @@
+lei:LEIRecord
+  <lei:LEI>
+  <lei:Entity>
+    <lei:LegalName xml:lang="sk">
+    <lei:City>
